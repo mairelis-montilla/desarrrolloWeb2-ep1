@@ -7,8 +7,8 @@ function PageHeader({title}) {
     <div className="container-xl d-flex  align-items-center justify-content-between">
       <h2>{title}</h2>
       <div className='d-flex gap-3 breadcrumb align-items-center'>
-      You are here: 
-      <Link className="nav-link" to="/">Home {' >'} </Link>
+      estas aqui: 
+      <Link className="nav-link" to="/">Inicio{' >'} </Link>
         <span>{title}</span>
       </div>
     </div>

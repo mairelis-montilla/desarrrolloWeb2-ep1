@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Recipes = ({title = 'Latest Recipes', recipes=[]}) => {
   return (
@@ -12,7 +11,7 @@ const Recipes = ({title = 'Latest Recipes', recipes=[]}) => {
           <div className="col-md-4" key={index}>
             <div className="mb-4">
                 <div className="card">
-                    <img src={recipe.image} className="card-img-top" alt={recipe.title} />
+                    <img src={`src/assets/images${recipe.image}`} className="card-img-top" alt={recipe.title} />
                     <div className="card-body">
                         <h5 className="card-title">{recipe.title}</h5>
                         <div className="d-flex justify-content-between col">

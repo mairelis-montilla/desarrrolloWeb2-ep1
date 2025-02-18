@@ -11,59 +11,67 @@ import Recipe9 from './assets/images/recipeThumb-09.jpg'
 const recipes = [
   {
     title: "Mexican Grilled Corn Recipe",
-    image: Recipe1,
+    image: '/recipeThumb-01.jpg',
     rating: 5,
-    time: "30 MIN"
+    time: "30 MIN",
+    autor: 'Maria'
   },
   {
     title: "Chocolate Cake With Green Tea Cream",
-    image: Recipe2,
+    image:'/recipeThumb-02.jpg',
     rating: 4,
-    time: "1 HR 30 MIN"
+    time: "1 HR 30 MIN",
+    autor: 'Maria'
   },
   {
     title: "Thai Yellow Curry Chicken",
-    image: Recipe3,
+    image: '/recipeThumb-03.jpg',
     rating: 5,
-    time: "45 MIN"
+    time: "45 MIN",
+    autor: 'Maria',
   },
   {
       title: "Recipe 4",
-      image: Recipe4,
+      image: '/recipeThumb-04.jpg',
       rating: 3,
-      time: "30 MIN"
+      time: "30 MIN",
+      autor: 'Maria'
     },
     {
       title: "Chocolate Cake",
-      image: Recipe5,
+      image: '/recipeThumb-05.jpg',
       rating: 4,
-      time: "1 HR 30 MIN"
+      time: "1 HR 30 MIN",
+      autor: 'Maria'
     },
     {
       title: "Thai Yellow Curry Chicken",
-      image: Recipe6,
+      image: '/recipeThumb-06.jpg',
       rating: 5,
-      time: "45 MIN"
+      time: "45 MIN",
+      autor: 'Maria'
     },
     {
       title: "Mexican Grilled Corn Recipe",
-      image: Recipe7,
+      image: '/recipeThumb-07.jpg',
       rating: 2,
-      time: "30 MIN"
+      time: "30 MIN",
+      autor: 'Maria'
     },
     {
       title: "Chocolate Cake",
-      image: Recipe8,
+      image: '/recipeThumb-08.jpg',
       rating: 3,
-      time: "1 HR 30 MIN"
+      time: "1 HR 30 MIN",
+      autor: 'Maria'
     },
     {
       title: "Thai Yellow Curry Chicken",
-      image: Recipe9,
+      image: '/recipeThumb-09.jpg',
       rating: 5,
-      time: "45 MIN"
+      time: "45 MIN",
+      autor: 'Maria'
     },
-
 ];
 
 const products = [
